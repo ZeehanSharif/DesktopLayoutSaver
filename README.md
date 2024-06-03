@@ -42,10 +42,10 @@ This application is intended for:
 - Windows operating system (Windows 7 or later)
 - .NET Core SDK installed on your machine
 
-### Steps
+### Steps (download release or setup locally)
 
 1. **Download the latest release**
-2. **Clone the Repository**
+2. **Otherwise, Clone the Repository**
 
     ```bash
     git clone https://github.com/yourusername/DesktopLayoutSaver.git
