@@ -1,6 +1,3 @@
-Contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request.
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 # DesktopLayoutSaver
 
 ## Table of Contents
@@ -98,3 +95,7 @@ DesktopLayoutSaver/
 ├── Profile.cs                     # Profile data structure
 ├── WindowInfo.cs                  # Window information and manipulation
 └── Profiles.json                  # JSON file storing the profiles (generated at runtime)
+```
+
+Contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request.
+This project is licensed under the MIT License. See the LICENSE file for more details. 
