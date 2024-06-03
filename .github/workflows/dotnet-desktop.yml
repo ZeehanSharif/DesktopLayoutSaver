@@ -49,6 +49,6 @@ jobs:
     - name: Archive build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: Build Artifacts
+        name: Build_Artifacts_${{ matrix.configuration }}_${{ github.run_id }}
         path: |
           **/bin/${{ matrix.configuration }}/
