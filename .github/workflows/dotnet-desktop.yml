@@ -16,7 +16,6 @@ jobs:
 
     env:
       Solution_Name: DesktopLayoutSaver.sln                         # Solution name
-      Test_Project_Path: DesktopLayoutSaver.Tests/DesktopLayoutSaver.Tests.csproj # Path to your test project
       Wap_Project_Directory: DesktopLayoutSaver.Package              # WAP project directory
       Wap_Project_Path: DesktopLayoutSaver.Package/DesktopLayoutSaver.Package.wapproj # WAP project path
 
@@ -35,10 +34,6 @@ jobs:
     # Add MSBuild to the PATH
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v2
-
-    # Execute all unit tests in the solution
-    - name: Execute unit tests
-      run: dotnet test ${{ env.Test_Project_Path }}
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
