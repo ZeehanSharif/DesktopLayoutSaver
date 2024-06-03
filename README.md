@@ -8,8 +8,6 @@
 5. [Installation and Setup](#installation-and-setup)
 6. [Usage](#usage)
 7. [Project Structure](#project-structure)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Introduction
 
