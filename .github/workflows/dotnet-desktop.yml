@@ -41,14 +41,4 @@ jobs:
 
     # Build the application
     - name: Build the application
-      run: msbuild ${{ env.Solution_Name }} /p:Configuration=${{ matrix.configuration }}
-      env:
-        Configuration: ${{ matrix.configuration }}
-
-    # Archive build outputs
-    - name: Archive build artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: Build Artifacts
-        path: |
-          **/bin/${{ matrix.configuration }}/
+      run: msbuild ${{ env.Solution_Name }} /p:
