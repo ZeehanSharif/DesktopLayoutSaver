@@ -44,22 +44,23 @@ This application is intended for:
 
 ### Steps
 
-1. **Clone the Repository**
+1. **Download the latest release**
+2. **Clone the Repository**
 
     ```bash
     git clone https://github.com/yourusername/DesktopLayoutSaver.git
     cd DesktopLayoutSaver
     ```
 
-2. **Install Dependencies**
+3. **Install Dependencies**
 
     Open the project in Visual Studio and restore NuGet packages.
 
-3. **Build the Project**
+4. **Build the Project**
 
     Build the solution in Visual Studio to ensure all dependencies are correctly configured.
 
-4. **Run the Application**
+5. **Run the Application**
 
     Start the application by running the `DesktopLayoutSaver` project in Visual Studio.
 
