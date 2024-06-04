@@ -11,7 +11,7 @@
 
 ## Introduction
 
-DesktopLayoutSaver is a Windows WPF application designed to save and restore the positions and sizes of all open windows on your desktop. This tool is especially useful for users who work with multiple monitor setups in different environments (e.g., a dual monitor setup at home and a triple monitor setup at the office) and want to quickly switch between different window layouts.
+DesktopLayoutSaver is a Windows WPF application designed to save and restore the positions and sizes of all open windows on your desktop. This tool is especially useful for users who work with multiple monitor setups in different environments (RDP to some other machine, multiple setups, etc...) and want to quickly switch between different window layouts saved as profiles.
 
 ## Features
 
@@ -19,12 +19,12 @@ DesktopLayoutSaver is a Windows WPF application designed to save and restore the
 - **Restore Window Profiles**: Restore previously saved window profiles, positioning and resizing windows to their saved states.
 - **Delete Window Profiles**: Remove unwanted window profiles from the application.
 - **Simple and Clean UI**: User-friendly interface for easy management of window profiles.
-- **Lightweight**: Designed to use minimal system resources while running in the background.
+- **Lightweight**: Designed to use minimal system resources while running in the background, and the profiles save as JSON files on this disk.
 
 ## Target Audience
 
 This application is intended for:
-- Professionals who frequently switch between different multi-monitor setups and need their application windows to be arranged in a specific way.
+- People who frequently switch between different multi-monitor setups and need their application windows to be arranged in a specific way.
 - Remote workers who use Remote Desktop Protocol (RDP) and want to maintain consistent window layouts between their home and office environments.
 - Anyone looking for a simple solution to manage window positions and sizes on their desktop.
 
@@ -44,7 +44,7 @@ This application is intended for:
 
 ### Steps (download release or setup locally)
 
-1. **Download the latest release**
+1. **Download the latest release, which is v1.0**
 2. **Otherwise, Clone the Repository**
 
     ```bash
@@ -96,5 +96,5 @@ DesktopLayoutSaver/
 └── Profiles.json                  # JSON file storing the profiles (generated at runtime)
 ```
 
-Contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request.
+All contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request.
 This project is licensed under the MIT License. See the LICENSE file for more details. 
